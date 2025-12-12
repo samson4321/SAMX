@@ -6,11 +6,12 @@ Biomedical Engineering Student | AI & Machine Learning Enthusiast | Electronics 
 
 
 ## 🌐 Socials:
-## 🌐 Socials:
 
 <a href="https://www.linkedin.com/in/samson-klenam-agbadi-888357385/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="30" style="margin-right:50px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="30" />
 </a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- adds space -->
 
 <a href="mailto:klenamagbadi@gmail.com">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="30" />
