@@ -22,6 +22,6 @@ Biomedical Engineering Student | AI & Machine Learning Enthusiast | Electronics 
 [![](https://visitcount.itsvg.in/api?id=samson4321&icon=0&color=0)](https://visitcount.itsvg.in)
 
   ## 💰 You can help me by Donating
-  [![PayPal] (https://paypal.me/paypal.me/SamsonKomlan) 
+  [![PayPal] https://www.paypal.com/paypalme/SamsonKomlan
 
   
