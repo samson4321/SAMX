@@ -1,0 +1,102 @@
+# Test File (TST)
+
+## Purpose
+This file documents the tests performed to verify the correctness and reliability of the machine learning pipeline implemented in this project.
+
+---
+
+## Test Environment
+- Python 3.x
+- Libraries installed via `requirements.txt`
+- Execution environment: Anaconda / Jupyter Notebook
+
+---
+
+## Tests Performed
+
+### 1. Data Loading Test
+**Description:**  
+Verified that the dataset loads correctly from the CSV file.
+
+**Expected Result:**  
+Dataset loads without errors and displays correct shape and column names.
+
+**Outcome:**  
+Passed – dataset loaded successfully.
+
+---
+
+### 2. Data Preprocessing Test
+**Description:**  
+Checked removal of non-informative columns (`signal_id`) and handling of numeric features.
+
+**Expected Result:**  
+Only numeric features remain for model training.
+
+**Outcome:**  
+Passed – preprocessing completed correctly.
+
+---
+
+### 3. Feature–Target Split Test
+**Description:**  
+Verified correct separation of features (`X`) and target variable (`y`).
+
+**Expected Result:**  
+`X` excludes the `class` column; `y` contains only class labels.
+
+**Outcome:**  
+Passed.
+
+---
+
+### 4. Model Training Test
+**Description:**  
+Trained baseline SVM and Random Forest models.
+
+**Expected Result:**  
+Models train without runtime errors.
+
+**Outcome:**  
+Passed.
+
+---
+
+### 5. Hyperparameter Optimization Test
+**Description:**  
+Applied Bayesian Optimization to tune SVM and Random Forest hyperparameters.
+
+**Expected Result:**  
+Best parameter sets are identified and returned.
+
+**Outcome:**  
+Passed – optimal parameters obtained.
+
+---
+
+### 6. Model Evaluation Test
+**Description:**  
+Evaluated models using accuracy, sensitivity, specificity, F1-score, and confusion matrices.
+
+**Expected Result:**  
+Metrics are computed correctly and confusion matrices are generated.
+
+**Outcome:**  
+Passed.
+
+---
+
+### 7. Visualization Test
+**Description:**  
+Generated confusion matrix heatmaps and performance comparison plots.
+
+**Expected Result:**  
+Plots display correctly with appropriate labels.
+
+**Outcome:**  
+Passed.
+
+---
+
+## Conclusion
+All components of the pipeline were tested successfully, and the system performs as expected.
